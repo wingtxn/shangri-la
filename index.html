@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shangri-La Beach Resort - Your Dream Getaway</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!---------------------------- header -------------------------------->
+    
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/shangri-la-logo.png" alt="Shangri-La Logo" class="logo-img"></a>                  
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-item">Home</a></li>
+                    <li><a href="suites.html" class="nav-item">Rooms & Suites</a></li>
+                    <li><a href="restaurant.html" class="nav-item">Restaurant</a></li>
+                    <li><a href="spa.html" class="nav-item">Spa</a></li>
+                    <li><a href="activities.html" class=nav-item>Activities</a></li>
+                </ul>
+                <div class="mobile-menu" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                  </div>                  
+            </nav>
+        </div>
+    </header>
+
+    <!----------------------------- hero section -------------------------------->
+    <section class="hero" style="background-image: url(images/beach-huts.jpg);">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="weather-widget">
+                <img id="weather-icon" alt="Weather Icon">
+                <span id="weather-value">Loading...</span>
+            </div>            
+            <h1 class="hero-title">Your Dream Getaway</h1>
+            <h2 class="hero-subtitle">Shangri-La Beach Resort</h2>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">Book</a>
+                <a href="#" class="btn btn-secondary">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------ experience section ----------------------------->
+    <section class="section">
+        <div class="container">
+            <div class="experience-row">
+                <div class="experience-content">
+                    <h3>Shangri-La Beach Resort</h3>
+                    <h2 class="section-title1">Experience Unforgettable Moments</h2>
+                    <p>At Shangri-La beach resort, indulge in the perfect blend of relaxation and adventure. Our beachfront location, luxurious amenities, and exceptional service create an unforgettable getaway.</p>
+                    
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <p>Step onto our pristine, white-sand beach with Private Beach Access.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <p>Relax by our stunning oceanfront Infinity Pool.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <p>Rejuvenate your mind and body at our World-Class Spa.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <p>Experience Exquisite Dining and culinary delights at our 5-star restaurants.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="learn-button">Learn More</a>
+                </div>
+                <div class="experience-image">
+                    <img src="images/hotel3.jpg" alt="Resort view" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------- room section --------------------------------->
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Our Luxurious Guest Rooms</h2>
+            <p class="section-subtitle">Experience unparalleled comfort and breathtaking views in our range of elegantly appointed guest rooms and suites.</p>
+            
+            <div class="room-grid">
+                <a href="suites.html" class="room-card">
+                    <img src="images/garden-family-room.jpg" alt="Garden Family Room" class="room-img">
+                    <div class="room-overlay">
+                        <h3 class="room-title">Garden Family Room</h3>
+                    </div>
+                </a>
+                
+                <a href="suites.html" class="room-card">
+                    <img src="images/beachfront-suite.jpg" alt="Beachfront Suite" class="room-img">
+                    <div class="room-overlay">
+                        <h3 class="room-title">Beachfront Suite</h3>
+                    </div>
+                </a>
+                
+                <a href="suites.html" class="room-card">
+                    <img src="images/ocean-view-deluxe.jpg" alt="Ocean View Deluxe" class="room-img">
+                    <div class="room-overlay">
+                        <h3 class="room-title">Ocean View Deluxe</h3>
+                    </div>
+                </a>
+                
+                <a href="suites.html" class="room-card">
+                    <img src="images/premium-oceanfront.jpg" alt="Premium Oceanfront" class="room-img">
+                    <div class="room-overlay">
+                        <h3 class="room-title">Premium Oceanfront</h3>
+                    </div>
+                </a>
+            </div>
+            
+            <a href="suites.html" class="btn btn-primary mt-40">Explore All Villas</a>
+        </div>
+    </section>
+
+    <!----------------------------------- activities section ------------------------------->
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Activities & Excursions</h2>
+            <p class="section-subtitle">Discover the wonders of our tropical paradise and create unforgettable memories with our curated selection of activities and excursions.</p>
+            
+            <div class="activities-grid">
+                <a href="activities.html" class="activity-card">
+                    <img src="images/relaxation.jpg" alt="Relaxation & Rejuvenation" class="activity-img">
+                    <div class="activity-overlay">
+                        <h3 class="activity-title">Relaxation & Rejuvenation</h3>
+                    </div>
+                </a>
+                
+                <a href="activities.html" class="activity-card">
+                    <img src="images/adventure.jpg" alt="Adventure & Recreation" class="activity-img">
+                    <div class="activity-overlay">
+                        <h3 class="activity-title">Adventure & Recreation</h3>
+                    </div>
+                </a>
+                
+                <a href="activities.html" class="activity-card">
+                    <img src="images/nature.jpg" alt="Explore Nature" class="activity-img">
+                    <div class="activity-overlay">
+                        <h3 class="activity-title">Explore Nature</h3>
+                    </div>
+                </a>
+                
+                <a href="activities.html" class="activity-card">
+                    <img src="images/cultural.jpg" alt="Cultural Experiences" class="activity-img">
+                    <div class="activity-overlay">
+                        <h3 class="activity-title">Cultural Experiences</h3>
+                    </div>
+                </a>
+            </div>
+            
+            <a href="activities.html" class="btn btn-primary mt-40">Explore All Experiences</a>
+        </div>
+    </section>
+
+    <!---------------------------- testimonials section ------------------------->
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="section-title">What Our Guests Are Saying</h2>
+            <p class="section-subtitle">Striving to provide exceptional experiences for our guests.</p>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were breathtaking."</p>
+                    <p class="testimonial-author">Sarah M.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible."</p>
+                    <p class="testimonial-author">John B.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">"We traveled with our two young children, and the Kids' Club was a lifesaver! The staff were fantastic, and our kids had a blast. This allowed us some much-needed relaxation time. The resort is very family-friendly."</p>
+                    <p class="testimonial-author">Emily K.</p>
+                </div>
+            </div>
+            
+            <a href="testimonials.html" class="btn btn-primary mt-40">Read More Testimonials</a>
+        </div>
+    </section>
+
+    <!------------------------------- booking section ---------------------------------->
+    <section class="section" style="background-image: url(images/booking.jpg); background-size: cover; background-position: center; color: white; padding: 100px 0; position: relative;">
+        <div class="hero-overlay"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+<h2 class="booking-heading">Paradise Awaits You</h2>
+<p class="booking-subtitle">Experience the ultimate relaxation and adventure at Shangri-La Beach Resort in beautiful Cancun.</p>
+            <div class="booking-form">
+                <div class="form-group">
+                    <label class="form-label">CHECK-IN</label>
+                    <input type="date" class="form-control" placeholder="YYYY-MM-DD">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">NUMBER OF NIGHTS</label>
+                    <input type="number" class="form-control" value="1" min="1">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">ADULTS</label>
+                    <input type="number" class="form-control" value="2" min="1">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">CHILDREN</label>
+                    <input type="number" class="form-control" value="0" min="0">
+                </div>
+                
+                <div class="form-submit">
+                    <button type="submit" class="btn btn-primary">SEARCH</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------- footer ------------------------------------------->
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-grid">
+            
+            <!------------------------ logo + contact info ------------------------->
+            <div class="footer-info">
+              <div class="footer-logo">
+                <a href="index.html" class="logo">
+                  <img src="images/whitelogo.png" alt="Shangri-La Logo" class="logo-img mb-40">
+                </a>
+              </div>
+              <div class="footer-contact">
+                <p><strong>Address:</strong><br>Level 1-12 Paradise Ave, Cancun, QR 77500</p>
+                <p><strong>Contact:</strong><br>1800 456 7890<br>info@shangrilaresort.com</p>
+              </div>
+            </div>
+      
+            <!--------------------------- our services ----------------------------->
+            <div class="footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="restaurant.html">Restaurant</a></li>
+                <li><a href="spa.html">Spa</a></li>
+                <li><a href="suites.html">Accommodation</a></li>
+                <li><a href="#special-offers">Special Offers</a></li>
+              </ul>
+            </div>
+      
+            <!--------------------------- contact us ----------------------------->
+            <div class="footer-links">
+              <h4>Contact Us</h4>
+              <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="reviews.html">FAQs</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+              </ul>
+            </div>
+      
+          </div>
+      
+          <!---------------------------- footer bottom ----------------------------->
+          <div class="footer-bottom">
+            <p>&copy; 2025 Shangri-La Resort. All rights reserved.</p>
+            <div class="footer-bottom-links">
+              <a href="#privacy">Privacy Policy</a>
+              <a href="#terms">Terms of Service</a>
+              <a href="#cookies">Cookie Settings</a>
+            </div>
+          </div>
+        </div>
+      </footer>      
+    <script defer src="weather.js"></script>
+    <script defer src="hamburger.js"></script>
+</body>
+</html>
